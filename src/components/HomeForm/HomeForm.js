@@ -91,7 +91,8 @@ export default function HomeForm () {
             formData = {}
         }
         else {
-            toast.success('Your Dummy Score is 50');
+            var  dummyScore = Math.floor(Math.random() * (40 - 0 + 1)) + 0;
+            toast.success(`Your Score is ${dummyScore}`);
             //loading state
             setLoading(true)
             
@@ -109,7 +110,7 @@ export default function HomeForm () {
                 }
 
                 const data = await res.json();
-                toast.success("Form submitted successfully!");
+                toast.success("We've Sent you an email!");
                 setLoading(false);
                 clearForm();
 

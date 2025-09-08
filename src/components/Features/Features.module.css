@@ -1,0 +1,56 @@
+.con {
+    width: 95vw;
+    margin: auto;
+    display: grid;
+    justify-content: center;
+    background-color: white;
+    padding: 1em;
+    border-radius: 2em;
+    row-gap: 4em;
+    margin-top: 15vh;
+}
+.headCon {
+    display: grid;
+    width: 95vw;
+}
+.headCon h3 {
+    font-size: 2em;
+    color: black;
+    justify-self: start;
+}
+.body {
+    display: grid;
+    margin: auto;
+    grid-template-columns: 40% 40%;
+    column-gap: 5%;
+    row-gap: 2em;
+    width: 70vw;
+    justify-content: center;
+}
+.cardCon {
+    background-color: #ffed2fff;
+    border-radius: 1em;
+    padding: 2em;
+    display: grid;
+    row-gap: 0.1em;
+    color: black;
+}
+.cardCon h4 {
+    margin-top: 2em;
+    margin-bottom: 0em;
+    font-size: 1.0em;
+}
+.cardCon p {
+    font-size: 0.65em;
+}
+@media screen and (max-width: 776px) {
+    .body {
+        display: grid;
+        margin: auto;
+        grid-template-columns: 90%;
+        column-gap: 5%;
+        row-gap: 2em;
+        width: 70vw;
+        justify-content: center;
+    }
+}

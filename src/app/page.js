@@ -3,6 +3,7 @@ import styles from './page.module.css';
 import HeroSection from '@/components/HeroSection/HeroSection';
 import HomeForm from '@/components/HomeForm/HomeForm';
 import QualitySection from '@/components/QualitySection/QualitySection';
+import Features from '@/components/Features/Features';
 import { useRef } from 'react';
 
 export default function Home (){
@@ -18,6 +19,7 @@ export default function Home (){
             <div ref={formWrapper}>
                 <HomeForm />
             </div>
+            <Features />
         </div>
     )
 }
