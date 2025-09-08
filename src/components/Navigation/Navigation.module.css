@@ -1,0 +1,15 @@
+.con {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90vw;
+    margin: auto;
+    padding: 1em;
+}
+.others_con ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 40vw;
+}

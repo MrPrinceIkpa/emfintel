@@ -1,0 +1,113 @@
+.con {
+    display: grid;
+    width: 95vw;
+    margin: auto;
+    row-gap: 4vh;
+    margin-top: 10vh;
+    height: auto;
+}
+.con h3 {
+    font-size: 2.5em;
+}
+.form {
+    width: 50vw;
+    margin: auto;
+    justify-self: center;
+    background-color: #ecececff;
+    border-radius: 2em;
+    padding-top: 5em;
+    padding-bottom: 5em;
+    padding-right: 4em;
+    padding-left: 4em;
+}
+.fieldset {
+    display: grid;
+    grid-template-columns: 37.5% 10% 12.5% 5% 35%;
+    grid-template-rows: auto;
+    grid-template-areas: 
+        "address address address . email"
+        "type type . goal goal"
+        "btn btn btn btn btn"
+    ;
+    justify-items: stretch;
+    row-gap: 3vh;
+    border: none;
+
+}
+.form input, .form input:active {
+    height: 3.2em;
+    padding: 1em;
+    width: 100%;
+    border-radius: 1em;
+    outline: none;
+    border: 1px solid black;
+}
+.form select{
+    height: 3.2em;
+    padding: 0.3em;
+    width: 100%;
+    border-radius: 1em;
+    outline: none;
+}
+.address {
+    grid-area: address;
+    position: relative;  
+}
+.email {
+    grid-area: email;
+}
+.add_suggestion_bar {
+    overflow-x: auto;
+    position: absolute;
+    top: 2.6em;
+    left: 0;
+    width: 500%;
+    display: grid;
+    background-color: #f4f4f4ff;
+    border-bottom-left-radius: 0.7em;
+    border-bottom-right-radius: 0.7em;
+    padding: 0em 1em 1em 1em;
+    list-style: none;
+    row-gap: 1vh;
+}
+.add_suggestion_bar li {
+    border-bottom: 1px solid grey;
+    padding-bottom: 1vh;
+    cursor: pointer;
+    font-size: 0.8em;
+}
+.goal {
+    grid-area: goal;
+}
+.btn {
+    grid-area: btn;
+    display: grid;
+    grid-template-columns: 30%;
+    justify-content: space-around;
+    margin-top: 6vh;
+}
+.btn button {
+    width: 100%;
+    padding: 0.9em 0.5em 0.9em 0.5em;
+}
+.type {
+    grid-area: type;
+}
+@media screen and (max-width: 776px) {
+    .form {
+        width: 90%;
+    }
+}
+@media screen and (max-width: 547px) {
+    .form {
+        width: 95%;
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+    .add_suggestion_bar li {
+        font-size: 0.6em;
+    }
+    .btn {
+        grid-template-columns: 60%;
+    }
+}

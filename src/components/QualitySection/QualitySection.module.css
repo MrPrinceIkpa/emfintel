@@ -1,0 +1,43 @@
+.con {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    width: 95vw;
+    margin: auto;
+    margin-top: 15vh;
+    margin-bottom: 15vh;
+}
+.textCon {
+    display: grid;
+    justify-content: center;
+    padding: 2em;
+    row-gap: 1vh;
+}
+.textCon h2 {
+    font-size: 2.8em;
+    color: #ff4500;
+    align-self: bottom;
+}
+.textCon h3 {
+    font-size: 0.9em;
+    align-self: top;
+    color: #959595ff;
+    line-height: 2.4em;
+    font-weight: 300;
+}
+.imgWrap {
+    background-image: url('../../../public/hero_img.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    border-radius: 2em;
+}
+@media screen and (max-width: 776px) {
+   .con {
+        display: grid;
+        grid-template-columns: 100%;
+    } 
+    .imgWrap {
+        width: 90%;
+        margin: auto;
+    }
+}

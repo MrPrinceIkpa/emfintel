@@ -1,0 +1,9 @@
+.con {
+    width: 95%;
+    margin: auto;
+    padding-top: 5em;
+}
+.con h5 {
+    font-weight: 100;
+    color: #ecececff;
+}

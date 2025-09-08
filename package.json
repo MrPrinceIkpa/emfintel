@@ -8,8 +8,16 @@
     "start": "next start"
   },
   "dependencies": {
+    "@supabase/supabase-js": "^2.57.2",
+    "firebase": "^12.2.1",
+    "get-stream": "^9.0.1",
+    "next": "15.5.2",
+    "nodemailer": "^7.0.6",
+    "path": "^0.12.7",
+    "pdf-lib": "^1.17.1",
+    "pdfkit": "^0.17.2",
     "react": "19.1.0",
     "react-dom": "19.1.0",
-    "next": "15.5.2"
+    "react-hot-toast": "^2.6.0"
   }
 }
