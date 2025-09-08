@@ -12,22 +12,22 @@ export default function Features() {
                 <div className={styles.cardCon}>
                     <div><Image  style={{width:"10%", height:"auto"}} src={icon}/></div>
                     <h4>Sustainable</h4>
-                    <p>Lorem Ipsum Dolor Sit Amet</p>
+                    <p>Sustainable Service as it is</p>
                 </div>
                 <div className={styles.cardCon}>
                     <div><Image  style={{width:"10%", height:"auto"}} src={icon}/></div>
                     <h4>Reliable</h4>
-                    <p>Lorem Ipsum Dolor Sit Amet</p>
+                    <p>Our Stats Speak, you can lean on our analysis</p>
                 </div>
                 <div className={styles.cardCon}>
                     <div><Image  style={{width:"10%", height:"auto"}} src={icon}/></div>
                     <h4>Easy to Use</h4>
-                    <p>Lorem Ipsum Dolor Sit Amet</p>
+                    <p>AS easy as A, B and C</p>
                 </div>
                 <div className={styles.cardCon}>
                     <div><Image  style={{width:"10%", height:"auto"}} src={icon}/></div>
                     <h4>Helpful</h4>
-                    <p>Lorem Ipsum Dolor Sit Amet</p>
+                    <p>Our service is helpful, to the society at large</p>
                 </div>
             </div>
         </div>
